@@ -8,7 +8,7 @@ public class CSVReader {
 
     public static void main(String[] args) {
 
-        String csvFile = "\\\\Glatku-sp170002.eu.novartis.net\\pfeniga1$\\data\\GDDB_SOC_patterns.csv";
+        String csvFile = ".csv";
         String line = "";
 
         try (BufferedReader br = new BufferedReader(new FileReader(csvFile))) {
