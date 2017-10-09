@@ -5,12 +5,7 @@ import java.text.*;
 public class TestNeuralNetwork {
  public static void main(String args[])
  {
-  double xorInput[][] =
-  {
-   {0.0,0.0},
-   {1.0,0.0},
-   {0.0,1.0},
-   {1.0,1.0}};
+  double xorInput[][] = { {0.0,0.0},{1.0,0.0},{0.0,1.0},{1.0,1.0} };
 
   double xorIdeal[][] = { {0.0},{1.0},{1.0},{0.0}};
 
